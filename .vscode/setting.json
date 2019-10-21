@@ -1,0 +1,48 @@
+{
+  "explorer.confirmDelete": false,
+  "materialTheme.accent": "Bright Teal",
+  "window.zoomLevel": 1,
+  "search.followSymlinks": false,
+  "editor.find.addExtraSpaceOnTop": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "files.associations": {
+    ".jshintrc": "plaintext"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "git.enableSmartCommit": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "'Source Code Pro',Consolas, 'Courier New', monospace",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "files.autoSave": "off",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.options": {
+    "plugins": ["html", "vue"]
+  },
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+      // #vue组件中html代码格式化样式
+    },
+    "prettier": {
+      // 格式化不加分号
+      "semi": false,
+      // 格式化为单引号
+      "singleQuote": true
+    }
+  },
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Eva Light"
+}
