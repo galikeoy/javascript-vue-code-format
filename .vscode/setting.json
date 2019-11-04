@@ -28,7 +28,10 @@
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
   "eslint.options": {
-    "plugins": ["html", "vue"]
+    "plugins": [
+      "html",
+      "vue"
+    ]
   },
   "vetur.format.defaultFormatter.html": "js-beautify-html",
   "vetur.format.defaultFormatterOptions": {
@@ -44,5 +47,13 @@
     }
   },
   "editor.tabSize": 2,
-  "workbench.colorTheme": "Eva Light"
+  "workbench.colorTheme": "Eva Light",
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "workbench.activityBar.visible": true,
+  "terminal.integrated.cursorBlinking": true,
+  "editor.multiCursorModifier": "ctrlCmd"
 }
